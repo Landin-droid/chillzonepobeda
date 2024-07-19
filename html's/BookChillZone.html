@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" 
+    crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+    crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin..
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/Практика2024/css's/forBook.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="apple-mobile-web-app-title" content="База отдыха &quot;Победа&quot;">
+      <meta name="application-name" content="База отдыха &quot;Победа&quot;">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+    
+    <title>Бронирование</title>
+</head>
+
+<body>
+  <div class="wide-container header" id="mainRef"s>
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3">
+        <a href="../html's/MainChillZone.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img class="mx-3" src="../images/ЛогоБО.png" width="50" height="50"></img>
+          <span class="fs-3">База отдыха &#171Победа&#187</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="../html's/MainChillZone.html" class="nav-link active-now">Главная</a></li>
+          <li class="nav-item"><a href="../html's/RentChillZone.html" class="nav-link">Прокат</a></li>
+          <li class="nav-item"><a href="../html's/BookChillZone.html" class="nav-link">Бронирование</a></li>
+          <li class="nav-item"><a href="../html's/CafeChillZone.html" class="nav-link">Кафе</a></li>
+          <li class="nav-item last-nav-item"><a href="../html's/ContactsChillZone.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="header-book houses"><h1>Домики</h1></div>
+    <!-- Домики -->
+    <div class="container book">
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Домик №1</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <ul class="chars1">
+                <li class="facility">3500 руб.</li>
+                <li class="facility">10-15</li>
+                <li class="facility">Подключена</li>
+                <li class="facility">Подключен</li>
+              </ul>
+              <ul class="chars2">
+                <li class="facility">Нет</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Нет</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicators1" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Домик1-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик1-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик1-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик1-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик1-5.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Домик №2</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <ul class="chars1">
+                <li class="facility">3500 руб.</li>
+                <li class="facility">10-15</li>
+                <li class="facility">Подключена</li>
+                <li class="facility">Подключен</li>
+              </ul>
+              <ul class="chars2">
+                <li class="facility">Нет</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Нет</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicators2" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../image..омик2-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик2-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик2-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик2-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик2-5.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик2-6.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    
+    
+    
+    
+      </div>
+      <div class="house-card">
+      <div class="card-info">
+        <div class="card-title"><h1>Домик №3</h1></div>
+        <hr>
+        <div class="house-info">
+          <div class="text-about">
+            <ul class="chars1">
+              <li class="facility">4500 руб.</li>
+              <li class="facility">10-15</li>
+              <li class="facility">Подключена</li>
+              <li class="facility">Подключен</li>
+            </ul>
+            <ul class="chars2">
+              <li class="facility">Есть</li>
+              <li class="facility">Есть</li>
+              <li class="facility">Есть</li>
+              <li class="facility">Есть</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn-book" data-text="Забронировать"></button>
+        </div>
+      </div>
+      <div class="carousel-container">
+        <div id="carouselExampleIndicators3" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/images210/Домик3-1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/images210/Домик3-2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/images210/Домик3-3.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/images210/Домик3-4.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/images210/Домик3-5.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/images210/Домик3-6.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+      </div>
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Домик №4</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <ul class="chars1">
+                <li class="facility">5000 руб.</li>
+                <li class="facilit..
+                <li class="facility">Подключена</li>
+                <li class="facility">Подключен</li>
+              </ul>
+              <ul class="chars2">
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Нет</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicators4" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Домик4-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик4-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик4-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик4-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик4-5.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик4-6.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик4-7.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик4-8.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Домик №6<h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <ul class="chars1">
+                <li class="facility">2500 руб.</li>
+                <li class="facility">7-9</li>
+                <li class="facility">Подключена</li>
+                <li class="facility">Подключен</li>
+              </ul>
+              <ul class="chars2">
+                <li class="facility">Нет</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Нет</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicators6" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Домик6-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик6-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик6-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик6-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик6-5.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Домик №7</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <ul class="chars1">
+                <li class="facility">2500 руб.</li>
+                <li class="facility">7-9</li>
+                <li class="facility">Подключена</li>
+                <li class="facility">Подключен</li>
+              </ul>
+              <ul class="chars2">
+                <li class="facility">Нет</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Нет</li>..
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicators7" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Домик7-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик7-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик7-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик7-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик7-5.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик7-6.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Домик7-7.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Банкетный зал -->
+      <div class="header banket"><h1>Банкетный зал</h1></div>
+      <div class="house-card">
+        <div class="carousel-container banket">
+          <div id="carouselExampleIndicatorsB" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Банкет1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет5.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет6.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет7.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет8.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Банкет9.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-title"><h1 class="right-title">Банкетный зал</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="banket-info">
+              <p>Отлично подходит для проведения крупных мероприятий!</p>
+              <p><a href="https://drive.google.com/file/d/1ol6MF_bhz-9EEbQQ50MxZlhNbvuss2_H/view?usp=sharing" target="_blank">Банкетное меню</a></p>
+            </div>
+            <div class="text-about">
+              <ul class="chars1">
+                <li class="facility">6500 руб.</li>
+                <li class="facility">80</li>
+                <li class="facility">Подключена</li>
+                <li class="facility">Подключен</li>
+              </ul>
+              <ul class="chars2">
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+      </div>
+      <!-- Шатер -->
+      <div class="header banket"><h1>Шатер под открытым небом</h1></div>
+      <div class="house-card">
+        <div class="carousel-container shatr">
+          <div id="carouselExampleIndicatorsSH" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Шатер1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер5.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер6.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер7.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер8.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Шатер9.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsSH" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-title"><h1 class="right-title">Шатер</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="banket-info">
+              <p>Отлично подходит для проведения крупных мероприятий на свежем воздухе,
+                 пропитанном хвойным запахом! Сервировка и меню будут входить в стоимость.</p>
+            </div>
+            <div class="text-about">
+              <ul class="chars1">
+                <li class="facility">Договорная</li>
+                <li class="facility">120</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Нет</li>
+              </ul>
+              <ul class="chars2">
+                <li class="facility">Нет</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Нет</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+      </div>
+      <!-- Летние беседки -->
+      <div class="header banket"><h1>Летние беседки</h1></div>
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №1</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">2000 руб.</li>
+                <li class="facility">10</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB1" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Беседка1-1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка1-2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №2</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">1500 руб.</li>
+                <li class="facility">10</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB2" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Беседка2-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка2-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка2-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка2-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №3</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">1500 руб.</li>
+                <li class="facility">15</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB3" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Беседка3-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка3-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка3-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №4</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">1000 руб.</li>
+                <li class="facility">6</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB4" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Беседка4-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка4-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка4-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка4-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка4-5.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB4" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB4" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №1</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">2000 руб.</li>
+                <li class="facility">10</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB1" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Беседка1-1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка1-2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №5</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">1000 руб.</li>
+                <li class="facility">6</li>
+                <li class="facility">Нет</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB5" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Беседка5-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка5-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка5-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка5-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB5" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB5" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №6</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">1500 руб.</li>
+                <li class="facility">10</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB6" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB6" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB6" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="http://placehold.it/618x400/3c3c3c/ffffff" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB6" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB6" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-card">
+        <div class="card-info">
+          <div class="card-title"><h1>Беседка №7</h1></div>
+          <hr>
+          <div class="house-info">
+            <div class="text-about">
+              <p>При бронировании беседки уточняйте, нужны ли вам решетки и уголь!</p>
+              <ul class="charsPav">
+                <li class="facility">2000 руб.</li>
+                <li class="facility">15</li>
+                <li class="facility">Есть</li>
+                <li class="facility">Есть</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-book" data-text="Забронировать"></button>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicatorsB7" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsB7" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/images210/Беседка7-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка7-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка7-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка7-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/images210/Беседка7-5.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsB7" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsB7" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <div class="container footer">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2024, База отдыха «Победа»</p>
+    
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+    
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="../html's/MainChillZone.html" class="nav-link px-2 text-body-secondary">Главная</a></li>
+        <li class="nav-item"><a href="../html's/RentChillZone.html" class="nav-link px-2 text-body-secondary">Прокат</a></li>
+        <li class="nav-item"><a href="../html's/BookChillZone.html" class="nav-link px-2 text-body-secondary">Бронирование</a></li>
+        <li class="nav-item"><a href="../html's/CafeChillZone.html" class="nav-link px-2 text-body-secondary">Кафе</a></li>
+        <li class="nav-item"><a href="../html's/ContactsChillZone.html" class="nav-link px-2 text-body-secondary">Контакты</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>

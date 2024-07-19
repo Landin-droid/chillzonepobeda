@@ -1,0 +1,130 @@
+/* Глобальные переменные */
+:root {
+    --main-width: 1296px;
+    --main-padding-left: 10px;
+    --main-padding-right: 10px;
+}
+
+body {
+    background: #6faea0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Bartina Bold';
+    src: local('Bartina Bold') 
+         url("../fonts/Bartina Bold.ttf");
+}
+
+/* Шапка сайта и навигационная панель */
+.header {
+    background-color:rgba(28, 108, 67, .9);
+}
+
+.greets, .news {
+    padding: 0;
+}
+
+.nav-link {
+    color: white;
+    transition: background-color .3s, color .3s;
+}
+
+.nav-link.active-now {
+    color: black;
+}
+
+.nav-link:visited{
+    color: white;
+}
+
+.nav-link:hover, .nav-link.px-2.text-body-secondary:hover {
+    background-color: #1c301c;
+    color: white !important;
+}
+
+.nav-link:active {
+    background-color: #198754;
+    color: black;
+}
+
+.last-nav-item {
+    margin-right: 16px;
+}
+
+img.mx-3 {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+  
+  span.fs-3 {
+    font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+/* Главная */
+.header-contacts > h1 {
+    display: block;
+    color: white;
+    padding: 10px 0;
+    padding-left: 20px;
+    width: 1296px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(28, 108, 67, .6);
+    margin-top: 20px;
+}
+
+.forNumberList {
+    background-color: bisque;
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.usefulNumbers, tr, td, th {
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+
+th {
+    padding: 10px;
+    font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+td {
+    padding: 10px;
+    font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+td > a {
+    color: black;
+    font-weight: 700;
+    transition: color .5 linear;
+}
+
+td > a:hover {
+    color:rgb(118, 116, 116);
+}
+/* Подвал */
+
+.nav-link.px-2 {
+    border-radius: var(--bs-border-radius);
+}
+
+footer {
+    border-top: 1px solid #000000 !important;
+  }

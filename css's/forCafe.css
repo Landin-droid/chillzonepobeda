@@ -60,9 +60,16 @@ img.mx-3 {
     background-color: bisque;
 }
   
-  span.fs-3 {
+span.fs-3 {
     font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
+    color: white;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
 }
 /* Главная */
 
@@ -76,6 +83,12 @@ img.mx-3 {
     border-radius: 10px;
     background-color: rgba(28, 108, 67, .6);
     margin-top: 20px;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
 }
 
 /* Кафе */

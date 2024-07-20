@@ -63,6 +63,13 @@ img.mx-3 {
   span.fs-3 {
     font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
+    color: white;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
 }
 /* Главная */
 .header-contacts > h1 {
@@ -75,6 +82,12 @@ img.mx-3 {
     border-radius: 10px;
     background-color: rgba(28, 108, 67, .6);
     margin-top: 20px;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
 }
 
 .forNumberList {
@@ -119,6 +132,20 @@ td > a {
 td > a:hover {
     color:rgb(118, 116, 116);
 }
+
+.how-to-go-container {
+    margin-top: 20px;
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+iframe {
+    border: #3d8768 5px solid;
+    border-radius: 10px;
+}
+
 /* Подвал */
 
 .nav-link.px-2 {

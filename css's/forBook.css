@@ -292,6 +292,11 @@ ul.charsPav {
     font-size: 30px;
     margin-left: 20px;
 }
+
+.facility.bbq {
+    list-style-image: url(../images/bbqMarker.png);
+}
+
 .text-about > p {
     font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;

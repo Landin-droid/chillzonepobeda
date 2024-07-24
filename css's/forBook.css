@@ -46,10 +46,6 @@ body {
     transition: background-color .3s, color .3s;
 }
 
-.nav-link.active-now {
-    color: black;
-}
-
 .nav-link:visited{
     color: white;
 }

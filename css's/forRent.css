@@ -23,33 +23,18 @@ body {
     background-color:rgb(12, 82, 116);
 }
 
-header {
-    background-color: #0c5274;
-    /* border: 1px solid black; */
-}
-
-.fs-3 {
-    color: white;
-    text-shadow:
-       2px  2px 0 #000,
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px  1px 0 #000,
-       1px  1px 0 #000;
-}
-
 .nav-link {
     color: white;
     transition: background-color .3s,  color .3s;
-    font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-link:visited{
     color: white;
 }
 
-.nav-link:hover{
-    background-color: #e1c9b4;
+.nav-link:hover, .nav-link.px-2.text-body-secondary:hover {
+    background-color: #1c301c;
+    color: white !important;
 }
 
 .nav-link:active {
@@ -70,6 +55,13 @@ img.mx-3 {
 span.fs-3 {
     font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
+    color: white;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
 }
 
 /* Главная */

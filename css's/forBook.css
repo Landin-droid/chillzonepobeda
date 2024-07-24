@@ -27,7 +27,7 @@ body {
 
 @counter-style marker-services2 {
     system: fixed;
-    symbols: "🚽" "🗄️" "☕" "📺";
+    symbols: "🚽" "" "" "";
     suffix: " ";
 }
 
@@ -189,6 +189,18 @@ ul.chars2 {
     list-style-type: marker-services2;
     font-size: 30px;
     margin-left: 20px;
+}
+
+.facility.teapot {
+    list-style-image: url(../images/teapotMarker.png);
+}
+
+.facility.fridge {
+    list-style-image: url(../images/fridgeMarker.png);
+}
+
+.facility.microwave {
+    list-style-image: url(../images/microwaveMarker.png);
 }
 
 .facility{

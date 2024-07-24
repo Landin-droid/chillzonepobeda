@@ -41,6 +41,7 @@ header {
 .nav-link {
     color: white;
     transition: background-color .3s,  color .3s;
+    font-family: 'Bartina Bold' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-link:visited{
@@ -99,7 +100,7 @@ span.fs-3 {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 90px 1fr;
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
@@ -125,7 +126,7 @@ span.fs-3 {
 
 .header-rent-condition {
     text-align: center;
-    vertical-align: middle;
+    align-content: center;
     color: #000000;
     grid-column: 2 / 4;
 }

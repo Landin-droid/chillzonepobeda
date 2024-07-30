@@ -34,7 +34,7 @@ body {
 
 .nav-link:hover, .nav-link.px-2.text-body-secondary:hover {
     background-color: #e1c9b4;
-    color: white !important;
+    color: black !important;
 }
 
 .nav-link:active {

@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover, .nav-link.px-2.text-body-secondary:hover {
-    background-color: #1c301c;
+    background-color: #e1c9b4;
     color: white !important;
 }
 
